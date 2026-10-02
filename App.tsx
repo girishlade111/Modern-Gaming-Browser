@@ -1,7 +1,7 @@
 import React from 'react';
-import { ThemeProvider } from './contexts/ThemeContext';
-import { BrowserProvider } from './contexts/BrowserContext';
-import { BrowserFrame } from './components/layout/BrowserFrame';
+import { ThemeProvider } from './ThemeContext';
+import { BrowserProvider } from './BrowserContext';
+import { BrowserFrame } from './BrowserFrame';
 import './index.css';
 
 function App() {

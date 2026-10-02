@@ -11,9 +11,9 @@ import {
   Eye,
   Languages
 } from 'lucide-react';
-import { useBrowser } from '../../contexts/BrowserContext';
-import { useTheme } from '../../contexts/ThemeContext';
-import { Button } from '../common/Button';
+import { useBrowser } from './BrowserContext';
+import { useTheme } from './ThemeContext';
+import { Button } from './Button';
 
 export const Toolbar: React.FC = () => {
   const { 

@@ -9,13 +9,13 @@ import {
   User,
   X
 } from 'lucide-react';
-import { useBrowser } from '../../contexts/BrowserContext';
-import { useTheme } from '../../contexts/ThemeContext';
-import { Button } from '../common/Button';
-import { BookmarksPanel } from '../panels/BookmarksPanel';
-import { HistoryPanel } from '../panels/HistoryPanel';
-import { DownloadsPanel } from '../panels/DownloadsPanel';
-import { ExtensionsPanel } from '../panels/ExtensionsPanel';
+import { useBrowser } from './BrowserContext';
+import { useTheme } from './ThemeContext';
+import { Button } from './Button';
+import { BookmarksPanel } from './BookmarksPanel';
+import { HistoryPanel } from './HistoryPanel';
+import { DownloadsPanel } from './DownloadsPanel';
+import { ExtensionsPanel } from './ExtensionsPanel';
 
 export const Sidebar: React.FC = () => {
   const { 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Plus } from 'lucide-react';
-import { useBrowser } from '../../contexts/BrowserContext';
-import { Tab } from '../common/Tab';
+import { useBrowser } from './BrowserContext';
+import { Tab } from './Tab';
 
 export const TabBar: React.FC = () => {
   const { tabs, addTab } = useBrowser();

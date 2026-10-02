@@ -1,6 +1,6 @@
 import React from 'react';
 import { Download, File, Pause, Play, Trash2, CheckCircle, AlertTriangle } from 'lucide-react';
-import { useBrowser } from '../../contexts/BrowserContext';
+import { useBrowser } from './BrowserContext';
 
 export const DownloadsPanel: React.FC = () => {
   const { downloads } = useBrowser();

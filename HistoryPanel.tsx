@@ -1,7 +1,7 @@
 import React from 'react';
 import { Clock, ExternalLink, Search, Trash2 } from 'lucide-react';
-import { useBrowser } from '../../contexts/BrowserContext';
-import { Button } from '../common/Button';
+import { useBrowser } from './BrowserContext';
+import { Button } from './Button';
 
 export const HistoryPanel: React.FC = () => {
   const { history, clearHistory } = useBrowser();

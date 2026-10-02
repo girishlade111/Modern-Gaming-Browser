@@ -1,8 +1,8 @@
 import React from 'react';
 import { Search, Image, User, ChevronDown } from 'lucide-react';
-import { useBrowser } from '../../contexts/BrowserContext';
-import { useTheme } from '../../contexts/ThemeContext';
-import { Button } from '../common/Button';
+import { useBrowser } from './BrowserContext';
+import { useTheme } from './ThemeContext';
+import { Button } from './Button';
 
 export const HomeScreen: React.FC = () => {
   const { setCurrentUrl, searchQuery, setSearchQuery, isLoggedIn, login } = useBrowser();

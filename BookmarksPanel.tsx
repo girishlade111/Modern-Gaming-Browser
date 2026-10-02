@@ -1,7 +1,7 @@
 import React from 'react';
 import { ExternalLink, FolderPlus, Trash2 } from 'lucide-react';
-import { useBrowser } from '../../contexts/BrowserContext';
-import { Button } from '../common/Button';
+import { useBrowser } from './BrowserContext';
+import { Button } from './Button';
 
 export const BookmarksPanel: React.FC = () => {
   const { bookmarks, removeBookmark } = useBrowser();

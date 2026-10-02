@@ -1,7 +1,7 @@
 import React from 'react';
 import { X } from 'lucide-react';
-import { useBrowser, Tab as TabType } from '../../contexts/BrowserContext';
-import { useTheme } from '../../contexts/ThemeContext';
+import { useBrowser, Tab as TabType } from './BrowserContext';
+import { useTheme } from './ThemeContext';
 
 interface TabProps {
   tab: TabType;

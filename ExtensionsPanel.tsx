@@ -1,6 +1,6 @@
 import React from 'react';
-import { useBrowser } from '../../contexts/BrowserContext';
-import { Button } from '../common/Button';
+import { useBrowser } from './BrowserContext';
+import { Button } from './Button';
 import { Package, Plus } from 'lucide-react';
 
 export const ExtensionsPanel: React.FC = () => {

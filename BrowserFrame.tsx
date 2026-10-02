@@ -2,9 +2,9 @@ import React from 'react';
 import { TabBar } from './TabBar';
 import { Toolbar } from './Toolbar';
 import { Sidebar } from './Sidebar';
-import { HomeScreen } from '../pages/HomeScreen';
-import { WebContent } from '../pages/WebContent';
-import { useBrowser } from '../../contexts/BrowserContext';
+import { HomeScreen } from './HomeScreen';
+import { WebContent } from './WebContent';
+import { useBrowser } from './BrowserContext';
 
 export const BrowserFrame: React.FC = () => {
   const { currentUrl, isSidebarOpen } = useBrowser();
