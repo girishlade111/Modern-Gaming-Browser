@@ -147,3 +147,7 @@ Here is a complete and professional list of **core functions and features** of y
 25. **Crash Recovery**
     Automatically restores tabs and sessions after unexpected shutdowns.
 
+
+---
+
+Built by Girish Lade — https://ladestack.in
